@@ -17,7 +17,7 @@ nav.tabBar.selected {color: #523737;}
 a, a:visited {text-decoration: none; color: #c1c1c1;}
 
 /*icon*/
-nav.tabBar a {color: #c1c1c1; display: inline-block;}
+nav.tabBar a {color: #c1c1c1; display: inline-block; flex: 1; }
 nav.tabBar i {font-size: 24px;
             display: block;
             margin-bottom: 5px;
