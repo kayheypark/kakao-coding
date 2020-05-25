@@ -1,0 +1,11 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import 'reset.css';
+@import 'header.css';
+@import 'firendsRow.css';
+@import 'search.css';
+@import 'navigation.css';
+
+body {font-family: "Open Sans"; font-size: 12px;}
+

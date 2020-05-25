@@ -1,11 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5395c296b4.js" crossorigin="anonymous"></script>
-    <title>친구</title>
-    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <title>Friends!!</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
 </head>
 <body>
     <header>
@@ -26,7 +27,7 @@
                 </span>
             </div>
         </div>
-        <div class="header_bottom">
+        <div class="header_bot">
             <div class="column">
                 <span class="text">Manage</span>
             </div>
@@ -39,7 +40,71 @@
             </div>
         </div>
     </header>
-    <main class="friends"></main>
-    <nav></nav>
+    <main class="wrapSection">
+        <div class="searchBar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Find friends, Chats, Plus Friends" />
+        </div>
+        <div class="mySection">
+            <header>
+                <h6>My Profile</h6>
+            </header>
+            <div class="rows">
+                <div class="row">
+                    <img class="profileImg" src="images/empty.jpg" alt="User Profile Picture" />
+                    <span class="name">My Name</span>
+                </div>
+                <div class="row">
+                    <img class="profileImg" src="images/empty.jpg" alt="User Profile Picture" />
+                    <span class="name">Friends' Names Display</span>
+                </div>
+            </div>
+        </div>
+        <div class="frdSection">
+            <header>
+                <h6>Friends</h6>
+            </header>
+            <div class="rows">
+                <div class="row">
+                    <img class="profileImg" src="images/empty.jpg" alt="User Profile Picture" />
+                    <span class="name">Friends' Name</span>
+                    <span class="nowMsg">Have a good day. See you soon.</span>
+                </div>
+                <div class="row">
+                    <img class="profileImg" src="images/empty.jpg" alt="User Profile Picture" />
+                    <span class="name">Friends' Name</span>
+                    <span class="nowMsg">Have a good day. See you soon.</span>
+                </div>
+                <div class="row">
+                    <img class="profileImg" src="images/empty.jpg" alt="User Profile Picture" />
+                    <span class="name">Friends' Name</span>
+                    <span class="nowMsg">Have a good day. See you soon.</span>
+                </div>
+                <div class="row">
+                    <img class="profileImg" src="images/empty.jpg" alt="User Profile Picture" />
+                    <span class="name">Friends' Name</span>
+                    <span class="nowMsg">Have a good day. See you soon.</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <nav class="tabBar">
+        <a href="index.html">
+            <i class="fas fa-user"></i><br />
+            <span>Friends</span>
+        </a>
+        <a href="chats.html">
+            <i class="fas fa-comment"></i><br />
+            <span>Chats</span>
+        </a>
+        <a href="find.html">
+            <i class="fas fa-search"></i><br />
+            <span>Find</span>
+        </a>
+        <a href="more.html">
+            <i class="fas fa-ellipsis-h"></i><br />
+            <span>More</span>
+        </a>
+    </nav>
 </body>
 </html>

@@ -1,0 +1,22 @@
+/* firendsRow.css */
+.rows {padding: 10px 15px;}
+.row {padding: 10px 0px;}
+
+.wrapSection h6 {color: #b4b4b4;}
+.mySection header {border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; padding: 10px 15px;}
+.frdSection header {border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; padding: 10px 15px;}
+
+
+.profileImg {width: 40px; border-radius: 20px; margin-right: 15px;}
+
+/*My Profile*/
+.mySection .row .name {font-size: 14px;}
+
+/*Friends*/
+.frdSection .row .name {font-size: 14px;}
+.frdSection .row .nowMsg {float: right; font-size: 10px; height: 30px;
+                            background-color: #f0f0f0;
+                            color: #939393;
+                            padding: 7px 10px 10px 10px;
+                            box-sizing: border-box;
+                            border-radius: 7px;}
