@@ -1,11 +1,11 @@
 /* header.css */
 
 
-body > header {position: fixed; width: 100%; z-index: 2;    
+body > header {position: fixed; width: 100%; z-index: 2;    top: 0;
     background-color: #523737; color: #fff; font-size: 12px;
     box-sizing: border-box;
                 padding: 5px 10px 15px;}
-main.gap::before {content: ""; display: block; height: 69px;}
+
 
 body > header i {}
 
