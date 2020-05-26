@@ -10,6 +10,9 @@
 @import 'navigation.css';
 @import 'profile.css';
 @import 'chats.css';
+@import 'find.css';
+@import 'more.css';
+@import 'chat_room.css';
 
-body {font-family: "Open Sans"; font-size: 12px;}
+
 

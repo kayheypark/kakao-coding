@@ -1,0 +1,6 @@
+/* chat_room.css */
+
+body.chat_room {background:#a1c0d6;}
+body.chat_room header {background:none; color: #000;}
+body.chat_room header a {color: #000;}
+

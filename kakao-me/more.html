@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/5395c296b4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
-<body>
+<body class="main_body">
 
     <header>
         <div class="header_top">
@@ -29,23 +29,105 @@
         </div>
         <div class="header_bot">
             <div class="column">
-                <span class="text" style="opacity: 0.5;">Manage</span>
             </div>
             <div class="column">
-                <span class="text">Friends </span>
-                <span class="number">1</span>
+                <span class="text">More</span>
             </div>
             <div class="column">
                 <i class="fas fa-cog"></i>
             </div>
         </div>
     </header>
-    <main class="wrapSection">
-        <div class="searchBar">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="Find friends, Chats, Plus Friends" />
-        </div>
-        </main>
+    <main class="more">
+        <header>
+            <div class="more_header_column">
+                <img class="profileImg" src="images/empty.jpg" alt="profile image" />
+                <div class="more_header_info">
+                    <h3>Park</h3>
+                    <span class="text">admin010@kakao.com</span>
+                </div>
+            </div>
+            <i class="fa fa-comment-o fa-2x"></i>
+        </header>
+        <section class="options">
+            <div class="option">
+                <i class="far fa-smile"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="option">
+                <i class="fas fa-paint-brush"></i>
+                <span>Themes</span>
+            </div>
+            <div class="option">
+                <i class="fas fa-search-plus"></i>
+                <span>Plus Friends</span>
+            </div>
+            <div class="option">
+                <i class="far fa-user-circle"></i>
+                <span>Account</span>
+            </div>
+        </section>
+        <section class="plusFriends_Section">
+            <header class="plusFriends">
+                <h2>Plus Friends</h2>
+                <div class="column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Learn More</span>
+                </div>
+            </header>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-utensils"></i>
+                    <span class="item_tit">Order</span>
+                </div>
+                <div class="item">
+                    <i class="fas fa-store"></i>
+                    <span class="item_tit">Store</span>
+                </div>
+                <div class="item">
+                    <i class="fas fa-tv"></i>
+                    <span class="item_tit">TV Channel/Radio</span>
+                </div>
+                <div class="item">
+                    <i class="fas fa-pencil-alt"></i>
+                    <span class="item_tit">Creation</span>
+                </div>
+                <div class="item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="item_tit">Education</span>
+                </div>
+                <div class="item">
+                    <i class="fas fa-university"></i>
+                    <span class="item_tit">Politics/Society</span>
+                </div>
+                <div class="item">
+                    <i class="fas fa-coins"></i>
+                    <span class="item_tit">Finance</span>
+                </div>
+                <div class="item">
+                    <i class="fas fa-video"></i>
+                    <span class="item_tit">Movies/Music </span>
+                </div>
+            
+            </div>
+        </section>
+        <section class="recommended_apps">
+            <h6 class="blind">Recommended Apps</h6>
+            <div class="recommended_app">
+                <img class="appImg" src="images/kakaostory.png" alt="kakaostory" />
+                <span class="app_tit">Kakao Story</span>
+            </div>
+            <div class="recommended_app">
+                <img class="appImg" src="images/path.png" alt="path" />
+                <span class="app_tit">Path</span>
+            </div>
+            <div class="recommended_app">
+                <img class="appImg" src="images/kakaofriends.png" alt="kakaofriends" />
+                <span class="app_tit">Kakao Friends</span>
+            </div>
+    
+        </section>
+    </main>
 
 <nav class="tabBar">
     <a href="index.html">

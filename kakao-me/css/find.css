@@ -1,0 +1,22 @@
+/* find.css */
+
+.find_options {
+    width: 100%;
+    height: 83px;
+    background:#eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 15px;
+}
+
+.find_option {flex: 1; text-align:center; color: #523737;}
+.find_option i {font-size: 21px; display: block; margin-bottom: 15px;}
+.find_option .text {}
+
+.find header h6 {padding: 5px 10px;}
+.recommended_none {width: 100%;
+                    padding: 20px 0; text-align: center;
+                    border-top: 1px solid #ebebeb;
+                    border-bottom: 1px solid #ebebeb;
+                }
+.recommended_none span.text {color: #b4b4b4; font-size: 14px;}
