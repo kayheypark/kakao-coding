@@ -1,8 +1,13 @@
 /* header.css */
 
 
-body > header {background-color: #523737; color: #fff; font-size: 12px;
+body > header {position: fixed; width: 100%; z-index: 2;    
+    background-color: #523737; color: #fff; font-size: 12px;
+    box-sizing: border-box;
                 padding: 5px 10px 15px;}
+main.gap::before {content: ""; display: block; height: 69px;}
+
+body > header i {}
 
 body > header > .header_top {display: flex;  justify-content: space-between;}
 body > header > .header_top > .column  {flex: 1;}
@@ -10,15 +15,16 @@ body > header > .header_top > .column:nth-child(1) {text-align: left;}
 body > header > .header_top > .column:nth-child(2) {text-align: center;}
 body > header > .header_top > .column:nth-child(3) {text-align: right;}
 
-body > header > .header_bot {font-size: 20px; display: flex;  justify-content: space-between;}
+body > header > .header_bot {font-size: 20px; display: flex;  justify-content: space-between;
+                                margin-top: 4px; padding: 0 5px;}
 
 body > header > .header_bot span.text {font-size: 16px;}
-body > header > .header_bot span.number {color: yellow;}
+body > header > .header_bot span.number {color: yellow; font-size: 15px;}
 
 body > header > .header_bot > .column {flex: 1;}
 body > header > .header_bot > .column:nth-child(1)  {text-align: left;}
 body > header > .header_bot > .column:nth-child(2)  {text-align: center;}
 body > header > .header_bot > .column:nth-child(3)  {text-align: right;}
-body > header > .header_bot > .column > i  {}
+
 
 

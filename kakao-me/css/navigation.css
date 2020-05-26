@@ -8,18 +8,20 @@ nav.tabBar {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #c1c1c1;
-    padding: 10px 30px 5px 30px;
+    box-sizing: border-box;
+    padding: 10px 0px 5px;
 }
 
-nav.tabBar.selected {color: #523737;}
+nav.tabBar a.selected {color: #523737;}
 
 
-a, a:visited {text-decoration: none; color: #c1c1c1;}
+nav.tabBar a,
+nav.tabBar a:visited {text-decoration: none;}
 
 /*icon*/
-nav.tabBar a {color: #c1c1c1; display: inline-block; flex: 1; }
+nav.tabBar a {color: #c1c1c1; display: inline-block; flex: 1; text-align: center; }
 nav.tabBar i {font-size: 24px;
             display: block;
             margin-bottom: 5px;
-            text-align: center;}
+            }
 nav.tabBar span {font-size: 10px;}

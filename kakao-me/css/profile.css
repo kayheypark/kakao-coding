@@ -1,0 +1,50 @@
+/* profile.css */
+
+.header_profile {background: url(../images/bg_default.png) 0 0 no-repeat;
+    background-size: cover;
+    background-color: transparent; height: 70%;
+}
+
+.header_profile a {color: #fff;}
+
+.profile {position: relative; }
+.profile .profileImg {position: absolute;
+                    top: -50px; left: 50%;
+                    width: 100px;
+                    border-radius: 50px;
+                    transform: translateX(-50%);}
+
+.profile input {display: block;
+                            height: 25px;
+                            width: 175px;
+                            text-align: center;
+                            border: 1px solid #c1c1c1;
+                            border-radius: 8px;
+                            
+                            margin: 10px auto; }
+.profile .actions {/*border: 1px solid red;*/}
+.profile .menus {
+                box-sizing: border-box; padding-top: 55px;
+                text-align: center;}
+
+.profile .name {font-size: 16px;}
+.profile .actions {display: flex; justify-content: center;}
+.action {flex: 1;}
+
+.actions .circle {  position: relative;
+                    display: block; width: 48px; height: 48px;
+                    background-color: #f2f2f2;
+                    border-radius: 50px;
+                margin: 0 auto;}
+
+.actions i {
+            position: absolute;
+            font-size: 18px;
+            color: #523737;
+            top: 50%; left: 50%;
+            transform: translateX(-50%) translateY(-50%);}
+
+.actions > div {width: 100px;}
+.action_desc {font-size: 12px; font-weight: bold;}
+
+main.profile {position: absolute; z-index: 3; left: 50%; transform: translateX(-50%); bottom: 70px;}

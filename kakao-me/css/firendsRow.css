@@ -1,6 +1,8 @@
 /* firendsRow.css */
 .rows {padding: 10px 15px;}
 .row {padding: 10px 0px;}
+.row a {text-decoration: none;}
+.row a:visited {color: #000;}
 
 .wrapSection h6 {color: #b4b4b4;}
 .mySection header {border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; padding: 10px 15px;}
